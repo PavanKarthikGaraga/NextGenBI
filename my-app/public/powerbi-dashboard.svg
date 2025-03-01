@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#111111"/>
+  
+  <!-- Grid Lines -->
+  <path d="M0 50 H800" stroke="#333333" stroke-width="1"/>
+  <path d="M0 150 H800" stroke="#333333" stroke-width="1"/>
+  <path d="M0 250 H800" stroke="#333333" stroke-width="1"/>
+  <path d="M0 350 H800" stroke="#333333" stroke-width="1"/>
+  <path d="M0 450 H800" stroke="#333333" stroke-width="1"/>
+  
+  <!-- Bar Chart -->
+  <rect x="50" y="200" width="40" height="300" fill="#007fff" opacity="0.8"/>
+  <rect x="100" y="150" width="40" height="350" fill="#007fff" opacity="0.8"/>
+  <rect x="150" y="250" width="40" height="250" fill="#007fff" opacity="0.8"/>
+  <rect x="200" y="100" width="40" height="400" fill="#007fff" opacity="0.8"/>
+  
+  <!-- Line Chart -->
+  <path d="M300 400 L350 300 L400 350 L450 200 L500 250" stroke="#40a9ff" stroke-width="3" fill="none"/>
+  
+  <!-- Pie Chart -->
+  <path d="M600 300 L700 300 A50 50 0 0 1 650 350 Z" fill="#007fff"/>
+  <path d="M600 300 L650 250 A50 50 0 0 1 700 300 Z" fill="#40a9ff"/>
+  <path d="M600 300 L650 350 A50 50 0 0 1 650 250 Z" fill="#0050b3"/>
+  
+  <!-- KPI Cards -->
+  <rect x="50" y="50" width="150" height="80" rx="5" fill="#222222" stroke="#007fff"/>
+  <rect x="220" y="50" width="150" height="80" rx="5" fill="#222222" stroke="#007fff"/>
+  <rect x="390" y="50" width="150" height="80" rx="5" fill="#222222" stroke="#007fff"/>
+  
+  <!-- Text Elements -->
+  <text x="70" y="90" fill="#ffffff" font-family="Arial" font-size="12">Revenue</text>
+  <text x="240" y="90" fill="#ffffff" font-family="Arial" font-size="12">Customers</text>
+  <text x="410" y="90" fill="#ffffff" font-family="Arial" font-size="12">Growth</text>
+</svg> 
