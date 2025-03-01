@@ -39,12 +39,10 @@ export default function FAQ() {
 
   return (
     <section className="faq-section">
-      <div className="container mx-auto px-4">
-        <div className="section-title">
-          <h2 className="text-2xl font-bold">
-            Frequently Asked Questions
-          </h2>
-        </div>
+      <div className="container">
+        <h2 className="section-title">
+          Frequently Asked Questions
+        </h2>
         
         <div className="section-content">
           {sections.map((section) => (
@@ -70,7 +68,7 @@ export default function FAQ() {
               </button>
               
               <div className={`accordion-content ${expandedSection === section.id ? 'expanded' : ''}`}>
-                <p className="text-gray-400">{section.content}</p>
+                <p>{section.content}</p>
               </div>
             </div>
           ))}

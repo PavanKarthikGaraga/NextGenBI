@@ -5,7 +5,7 @@ export default function TrainingOverview() {
     <section className="training-section">
       <div className="container">
         <div className="training-content">
-          <div>
+          <div className="training-text">
             <h2 className="section-title">
               TRAINING OVERVIEW
             </h2>
@@ -24,21 +24,21 @@ export default function TrainingOverview() {
               <div className="steps-container">
                 <div className="step">
                   <div className="step-number">1</div>
-                  <div>
+                  <div className="step-content">
                     <h4 className="step-title">Training Program</h4>
                     <p className="step-description">A structured course to learn Power BI</p>
                   </div>
                 </div>
                 <div className="step">
                   <div className="step-number">2</div>
-                  <div>
+                  <div className="step-content">
                     <h4 className="step-title">Career Opportunities</h4>
                     <p className="step-description">Potential job roles available after mastery</p>
                   </div>
                 </div>
                 <div className="step">
                   <div className="step-number">3</div>
-                  <div>
+                  <div className="step-content">
                     <h4 className="step-title">Skill Development</h4>
                     <p className="step-description">Enhancing technical abilities in Power BI</p>
                   </div>
@@ -46,13 +46,15 @@ export default function TrainingOverview() {
               </div>
             </div>
           </div>
-          <div className="image-container">
-            <Image
-              src="/powerbi-training.svg"
-              alt="Power BI Training Overview"
-              fill
-              className="image"
-            />
+          <div className="training-image">
+            <div className="image-container">
+              <Image
+                src="/powerbi-training.svg"
+                alt="Power BI Training Overview"
+                fill
+                className="image"
+              />
+            </div>
           </div>
         </div>
       </div>

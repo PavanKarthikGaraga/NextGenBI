@@ -176,10 +176,10 @@ export default function Curriculum() {
           </h2>
         </div>
         
-        <div className="flex items-center gap-2 mb-8">
+        {/* <div className="flex items-center gap-2 mb-8">
           <div className="w-4 h-4 rounded-full bg-accent-blue"></div>
           <span className="text-lg">Comprehensive Training Program</span>
-        </div>
+        </div> */}
         
         <div className="section-content">
           {modules.map((module) => (
