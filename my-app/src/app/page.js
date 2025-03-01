@@ -16,20 +16,20 @@ export default function Home() {
         <section id="home">
           <Hero />
         </section>
-        <section id="features">
-          <Features />
-        </section>
         <section id="about">
           <About />
+        </section>
+        <section id="features">
+          <Features />
         </section>
         <section id="curriculum">
           <Curriculum />
         </section>
-        <section id="faq">
-          <FAQ />
-        </section>
         <section id="training">
           <TrainingOverview />
+        </section>
+        <section id="faq">
+          <FAQ />
         </section>
         <section id="contact">
           <Contact />

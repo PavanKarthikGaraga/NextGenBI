@@ -7,53 +7,33 @@ export default function FAQ() {
   const sections = [
     {
       id: 'why-datamites',
-      title: 'Why Opt for DataMites for Power BI Training in India?',
-      content: 'DataMites offers comprehensive Power BI training with industry experts and hands-on projects.'
+      title: 'Why Choose Our Power BI Training Program?',
+      content: 'We offer comprehensive Power BI training with industry experts, hands-on projects, and real-world case studies. Our program is designed to take you from basics to advanced concepts with personalized attention and lifetime access to learning resources.'
     },
     {
       id: 'who-should-enroll',
-      title: 'Who Should Enroll in the Power BI Course in India?',
-      content: 'Professionals interested in data analytics, business analysts, and those looking to enhance their data visualization skills.'
+      title: 'Who Should Enroll in this Power BI Course?',
+      content: 'This course is perfect for data analysts, business analysts, BI professionals, data scientists, and anyone looking to enhance their data visualization and business intelligence skills. No prior experience is required, though basic Excel knowledge is helpful.'
     },
     {
-      id: 'course-entail',
-      title: 'What Does the DataMites Power BI Course in India Entail?',
-      content: 'The course covers all aspects of Power BI from basics to advanced concepts with practical exercises.'
+      id: 'course-structure',
+      title: 'How is the Course Structured?',
+      content: 'The course is structured into 9 comprehensive modules, covering everything from basics to advanced Power BI concepts. It includes live sessions, hands-on projects, real-world case studies, and interactive Q&A sessions. Both online and offline training options are available.'
     },
     {
-      id: 'course-cost',
-      title: 'What is the Cost of the Power BI Course in India?',
-      content: 'Please contact our team for current pricing and available discounts.'
+      id: 'certification',
+      title: 'Do You Provide Certification?',
+      content: 'Yes, upon successful completion of the course and projects, you will receive an industry-recognized certification. Our certification is valued by top companies and demonstrates your expertise in Power BI.'
     },
     {
-      id: 'duration',
-      title: 'How Long is the Power BI Training Program at DataMites?',
-      content: 'The program duration varies based on the chosen format (weekday/weekend) and pace of learning.'
+      id: 'job-assistance',
+      title: 'Is Job Assistance Provided?',
+      content: 'Yes, we provide comprehensive job assistance including resume building, interview preparation, and connections with our corporate partners. Our placement cell actively helps students connect with potential employers.'
     },
     {
-      id: 'instructors',
-      title: 'Who Will Conduct the Power BI Training in India?',
-      content: 'Experienced industry professionals with extensive Power BI expertise.'
-    },
-    {
-      id: 'online-available',
-      title: 'Is Online Power BI Training Available at DataMites in India?',
-      content: 'Yes, we offer flexible online training options with live instructor-led sessions.'
-    },
-    {
-      id: 'offline-option',
-      title: 'Can I Opt for Offline Power BI Training at DataMites in India?',
-      content: 'Yes, classroom training is available at select locations.'
-    },
-    {
-      id: 'payment-methods',
-      title: 'What are the Available Payment Methods for the Course?',
-      content: 'We accept various payment methods including cards, net banking, and EMI options.'
-    },
-    {
-      id: 'flexi-pass',
-      title: 'What Does the Flexi-Pass Offer for Power BI Training in India?',
-      content: 'Flexi-Pass allows flexible scheduling and access to both online and offline sessions.'
+      id: 'learning-support',
+      title: 'What Kind of Support is Available During the Course?',
+      content: 'You get 24/7 access to learning materials, dedicated mentor support, doubt-clearing sessions, and a community of learners. We also provide lifetime access to course updates and our alumni network.'
     }
   ];
 
@@ -62,7 +42,7 @@ export default function FAQ() {
       <div className="container mx-auto px-4">
         <div className="section-title">
           <h2 className="text-2xl font-bold">
-            FAQ'S OF POWER BI COURSE IN INDIA
+            Frequently Asked Questions
           </h2>
         </div>
         

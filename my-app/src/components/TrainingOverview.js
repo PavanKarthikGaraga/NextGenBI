@@ -11,7 +11,7 @@ export default function TrainingOverview() {
             </h2>
             <p className="text-description">
               Our Power BI Software Training offers comprehensive lessons designed for all skill
-              levels. Whether you're a beginner or an experienced user, you will gain valuable insights
+              levels. Whether you&apos;re a beginner or an experienced user, you will gain valuable insights
               into data visualization, reporting, and analysis.
             </p>
             <p className="text-description">

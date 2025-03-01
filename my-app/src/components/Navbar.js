@@ -16,11 +16,11 @@ export default function Navbar() {
         </div>
         <div className="nav-links">
           <button onClick={() => scrollToSection('home')} className="nav-link">Home</button>
-          <button onClick={() => scrollToSection('features')} className="nav-link">Features</button>
           <button onClick={() => scrollToSection('about')} className="nav-link">About</button>
+          <button onClick={() => scrollToSection('features')} className="nav-link">Features</button>
           <button onClick={() => scrollToSection('curriculum')} className="nav-link">Curriculum</button>
-          <button onClick={() => scrollToSection('faq')} className="nav-link">FAQ</button>
           <button onClick={() => scrollToSection('training')} className="nav-link">Training</button>
+          <button onClick={() => scrollToSection('faq')} className="nav-link">FAQ</button>
           <button onClick={() => scrollToSection('contact')} className="nav-link">Contact</button>
         </div>
       </div>
