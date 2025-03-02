@@ -31,7 +31,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
-              Transform your career with Next Gen BI Solutions' comprehensive training program. Learn from industry experts and gain hands-on experience.
+              Transform your career with Next Gen BI Solutions&apos; comprehensive training program. Learn from industry experts and gain hands-on experience.
             </motion.p>
             <motion.div 
               className="tech-stack"
