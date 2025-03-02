@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" rx="12" fill="#F8FAFC"/>
+  
+  <!-- Header -->
+  <rect x="40" y="40" width="720" height="80" rx="8" fill="white" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  <rect x="60" y="60" width="160" height="40" rx="4" fill="#007FFF" fill-opacity="0.1"/>
+  <rect x="240" y="60" width="160" height="40" rx="4" fill="#007FFF" fill-opacity="0.1"/>
+  <rect x="420" y="60" width="160" height="40" rx="4" fill="#007FFF" fill-opacity="0.1"/>
+  
+  <!-- Charts -->
+  <rect x="40" y="140" width="350" height="200" rx="8" fill="white" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  <path d="M60 300 L160 220 L260 260 L360 180" stroke="#007FFF" stroke-width="3" fill="none"/>
+  
+  <rect x="410" y="140" width="350" height="200" rx="8" fill="white" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  <circle cx="485" cy="240" r="60" fill="#007FFF" fill-opacity="0.2"/>
+  <circle cx="485" cy="240" r="40" fill="#007FFF" fill-opacity="0.4"/>
+  
+  <!-- Data Grid -->
+  <rect x="40" y="360" width="720" height="200" rx="8" fill="white" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  <rect x="60" y="380" width="680" height="1" fill="#E2E8F0"/>
+  <rect x="60" y="420" width="680" height="1" fill="#E2E8F0"/>
+  <rect x="60" y="460" width="680" height="1" fill="#E2E8F0"/>
+  <rect x="60" y="500" width="680" height="1" fill="#E2E8F0"/>
+  <rect x="60" y="540" width="680" height="1" fill="#E2E8F0"/>
+</svg> 
