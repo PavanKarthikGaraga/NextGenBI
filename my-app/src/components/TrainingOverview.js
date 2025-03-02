@@ -7,7 +7,7 @@ export default function TrainingOverview() {
         <div className="training-content">
           <div className="training-text">
             <h2 className="section-title">
-              TRAINING OVERVIEW
+              Training Overview
             </h2>
             <p className="text-description">
               Our Power BI Software Training offers comprehensive lessons designed for all skill

@@ -479,22 +479,30 @@ a {
 
 /* Features Section */
 .features-section {
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
   background-color: var(--primary-bg);
 }
 
-.section-title {
+.section-title,
+.about-section h2,
+.faq-section h2,
+.curriculum-section h2,
+.syllabus-title,
+.contact-header h2,
+.footer-title {
   font-size: 2.25rem;
   font-weight: 600;
   color: var(--text-primary);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   display: flex;
   align-items: center;
   position: relative;
   padding-left: 1.5rem;
 }
 
-.section-title::before {
+.section-title::before,
+.about-section h2::before,
+.faq-section h2::before {
   content: '';
   position: absolute;
   left: 0;
@@ -550,7 +558,7 @@ a {
 
 /* Training Overview Section */
 .training-section {
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
   background-color: var(--primary-bg);
 }
 
@@ -715,10 +723,6 @@ a {
     padding: 2rem 1rem;
   }
 
-  .section-title {
-    font-size: 1.75rem;
-  }
-
   .text-description {
     font-size: 0.95rem;
   }
@@ -746,7 +750,7 @@ a {
 
 /* Contact Section */
 .contact-section {
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
   background-color: var(--primary-bg);
 }
 
@@ -1153,7 +1157,7 @@ a {
 
 /* Curriculum Section Styles */
 .curriculum-section {
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
   background-color: var(--primary-bg);
 }
 
@@ -1165,7 +1169,6 @@ a {
 }
 
 .syllabus-title {
-  font-size: 1.75rem;
   color: var(--accent-primary);
   margin-bottom: 2rem;
 }
@@ -1225,12 +1228,7 @@ a {
 .about-section h2,
 .faq-section h2,
 .curriculum-section h2 {
-  color: var(--text-white);
-  font-size: 1.75rem;
-  font-weight: 600;
-  margin-bottom: 2rem;
-  display: flex;
-  align-items: center;
+  color: var(--text-primary);
 }
 
 .about-section h2::before,
@@ -1419,4 +1417,62 @@ a {
   font-size: 0.95rem;
   line-height: 1.6;
   flex-grow: 1;
+}
+
+/* Media Queries for section titles */
+@media (max-width: 768px) {
+  .section-title,
+  .about-section h2,
+  .faq-section h2,
+  .curriculum-section h2,
+  .syllabus-title,
+  .contact-header h2,
+  .footer-title {
+    font-size: 1.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title,
+  .about-section h2,
+  .faq-section h2,
+  .curriculum-section h2,
+  .syllabus-title,
+  .contact-header h2,
+  .footer-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Update section padding to be consistent */
+.features-section,
+.training-section,
+.curriculum-section,
+.contact-section,
+.about-section,
+.faq-section {
+  padding: 5rem 1rem;
+  background-color: var(--primary-bg);
+}
+
+@media (max-width: 768px) {
+  .features-section,
+  .training-section,
+  .curriculum-section,
+  .contact-section,
+  .about-section,
+  .faq-section {
+    padding: 3rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .features-section,
+  .training-section,
+  .curriculum-section,
+  .contact-section,
+  .about-section,
+  .faq-section {
+    padding: 2rem 1rem;
+  }
 }

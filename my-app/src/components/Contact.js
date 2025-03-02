@@ -42,7 +42,7 @@ export default function Contact() {
             <h3 className="feature-title">Contact Information</h3>
             <div className="info-container">
               <div className="info-group">
-                <h4 className="info-title">THOMAS PRASHANTH</h4>
+                {/* <h4 className="info-title">THOMAS PRASHANTH</h4> */}
                 <p className="info-text">NextGen BI Solutions</p>
               </div>
               <div className="info-group">
